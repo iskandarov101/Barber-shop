@@ -32,7 +32,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
@@ -148,16 +148,129 @@ img {
   background-color: #C29E75;
   color: #000;
   margin-right: 10px;
-
+}
+.btn:hover {
+  background-color: transparent;
+  color: #C29E75;
+  border: 1px solid #C29E75;
 }
 .book-now {
   background-color: transparent;
   border: 1px solid #fff;
   color: #fff;
 }
+.book-now:hover {
+  background-color: #C29E75;
+  color: #fff;
+}
 
+/* MAIN */
+.main {
 
+}
+.main-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+}
+.barber-man {
+  width: 350px;
+  height: 350px;
+}
+.main-story {
+  width: 470px;
+}
+.main-title-text {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  color: #C29E75;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.main-story-title {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+  opacity: .9;
+  line-height: 58px;
+  color: #2b2b2b;
+}
+.main-story-text {
+  text-transform: inherit;
+  color: #2b2b2b;
+  opacity: .9;
+  font-size: 14px;
+  font-family: 'Oswald', sans-serif;
+}
+.story-list {
+  padding-top: 25px;
+}
+.story-items {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.story-items p {
+  padding-left: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+}
+/* COST */
+#bg-box {
+  background-image: url("../img/2_5204011100021983707.png");
+  background-attachment: fixed;
+  background-position: 0 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  position: relative;
+}
+.dark-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+.cost-list {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 80px;
+  padding: 15px 0;
+  background-color: rgba(0,0,0,0.6);
+  height: 110px;
+}
+.cost-items {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  padding: 0 35px;
+}
+.cost-link {
+  text-decoration: none;
+}
+.cost-link  i {
+  font-size: 24px;
+  display: block;
+  color: #fff;
+}
+.cost-link  p {
+  font-size: 20px; 
+  font-family: 'Oswald', sans-serif;
+  padding-top: 7px;
+  color: #fff;
+}
+.cost {
+  font-size: 12px;
+  color: #fff;
+  text-transform: capitalize; 
+}
 
+/* FEATURES */
 
 
 
