@@ -1,49 +1,64 @@
-.about {
-   display: flex;
-   justify-content: space-around;
-   margin: 100px 0;
- }
- .barber-man {
-   width: 350px;
-   height: 350px;
- }
- .main-story {
-   width: 470px;
- }
- .main-title-text {
-   font-family: 'Oswald', sans-serif;
-   font-size: 14px;
-   color: #C29E75;
-   font-weight: 500;
-   text-transform: capitalize;
- }
- .main-story-title {
-   text-transform: uppercase;
-   font-size: 48px;
-   font-style: normal;
-   font-weight: 500;
-   font-family: 'Oswald', sans-serif;
-   opacity: .9;
-   line-height: 58px;
-   color: #2b2b2b;
- }
- .main-story-text {
-   text-transform: inherit;
-   color: #2b2b2b;
-   opacity: .9;
-   font-size: 14px;
-   font-family: 'Oswald', sans-serif;
- }
- .story-list {
-   padding-top: 25px;
- }
- .story-items {
-   display: flex;
-   align-items: center;
-   padding-top: 15px;
- }
- .story-items p {
-   padding-left: 15px;
-   font-family: 'Oswald', sans-serif;
-   font-size: 14px;
- }
+.about__wrapper {
+  display: flex;
+  margin: 100px 0;
+}
+.about__inner-wrapper {
+  width: 350px;
+  height: 350px;
+  margin-left: 90px;
+}
+
+.about__text {
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: 'Oswald',sans-serif;
+  font-size: 14px;
+  color: $main-color;
+  font-weight: 500;
+  text-transform:capitalize;
+}
+.about__heading {
+  margin: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Oswald",sans-serif;
+  line-height: 58px;
+  color: #2b2b2b;
+  opacity: .9; 
+}
+
+.about__description {
+  margin: 0;
+  text-transform: inherit;
+  color: #2b2b2b;
+  opacity: .9;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.about__list {
+  padding-top: 25px;
+  @include reset-list;
+}
+.about__item {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.about__icons {
+  
+}
+.about__item-description {
+  margin: 0;
+  padding-left: 15px;
+  line-height: 15px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  color: #2b2b2b;
+}
