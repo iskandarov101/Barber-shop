@@ -386,6 +386,7 @@ body {
   font-size: 500;
   font-style: normal;
   line-height: 1.5;
+  color: #111;
 }
 
 img {
@@ -411,9 +412,119 @@ img {
   margin-left: auto;
 }
 
+.button {
+  margin-top: 20px;
+  margin-left: 240px;
+}
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 10px 15px;
+  background-color: #C29E75;
+  color: #000;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #C29E75;
+  border: 1px solid #C29E75;
+}
+
+.book-now {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.book-now:hover {
+  background-color: #C29E75;
+  color: #fff;
+}
+
+.header {
+  background-image: url("/img/slider3.jpg");
+  background-size: 1540px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  position: relative;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__item {
+  list-style: none;
+  padding-top: 15px;
+  padding-right: 25px;
+  letter-spacing: .5px;
+}
+
+.navbar__link {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
 .logo {
   width: 125px;
   height: 25px;
   margin-top: 20px;
+}
+
+.hero {
+  position: absolute;
+  top: 34%;
+  left: 52%;
+  width: 500px;
+}
+
+.hero__text {
+  margin-left: 330px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.hero__title {
+  color: #fff;
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Roboto Condensed' sans-serif;
+  font-weight: bold;
+}
+
+.hero__style {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: sans-serif;
+  margin-left: 210px;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,25 @@
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ .navbar__list {
+   display: flex;
+   align-items: center; 
+ }
+ .navbar__item {
+   list-style: none;
+   padding-top: 15px;
+   padding-right: 25px;
+   letter-spacing: .5px;
+ }
+ .navbar__link {
+   text-decoration: none;
+   text-transform: capitalize;
+   font-size: 12px;
+   font-weight: 600;
+   font-family: sans-serif;
+   color: #fff;
+   letter-spacing: 1px;
+ }

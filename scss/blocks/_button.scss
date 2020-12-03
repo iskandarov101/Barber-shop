@@ -1,0 +1,32 @@
+.button {
+  margin-top: 20px;
+  margin-left: 240px;
+}
+.button__info {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 10px 15px;
+  background-color: #C29E75;
+  color: #000;
+  margin-right: 10px;
+
+  &:hover {
+   background-color: transparent;
+   color: #C29E75;
+   border: 1px solid #C29E75;.
+  }
+}
+
+.button__book {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+
+  &:hover {
+     background-color: #c29e75;
+     color: #fff;
+  }
+}
+
+ 
