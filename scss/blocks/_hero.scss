@@ -1,8 +1,11 @@
 .hero {
-   position: absolute;
-   top: 34%;
-   left: 52%;
-   width: 500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding-top: 200px;
+   padding-bottom: 260px;
+   margin-left: 150px;
 }
 .hero__text {
    margin: 0;

@@ -1,9 +1,10 @@
 .header {
-   background-image: url("/img/slider3.jpg");
+   background-image: url("../img/slider3.jpg");
    background-size: 1540px;
    background-repeat: no-repeat;
    background-position: center center;
-   height: 100vh;
+
+   opacity: .999;
    position: relative;
 }
 
