@@ -9,15 +9,14 @@
   padding: 10px 15px;
   background-color: #C29E75;
   color: #000;
-  margin-right: 10px;
+   border: 1px solid transparent;
 
   &:hover {
    background-color: transparent;
    color: #C29E75;
-   border: 1px solid #C29E75;.
+   border: 1px solid #C29E75;
   }
 }
-
 .button__book {
   background-color: transparent;
   border: 1px solid #fff;
