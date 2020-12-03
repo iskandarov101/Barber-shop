@@ -45,14 +45,13 @@
   padding-top: 25px;
   @include reset-list;
 }
+
 .about__item {
   display: flex;
   align-items: center;
   padding-top: 15px;
 }
-.about__icons {
-  
-}
+
 .about__item-description {
   margin: 0;
   padding-left: 15px;
