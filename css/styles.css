@@ -861,4 +861,88 @@ img {
   font-family: sans-serif;
   font-weight: bold;
 }
+
+.gallery {
+  margin-top: 70px;
+}
+
+.gallery__heading {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallery__text {
+  margin: 0;
+  text-align: center;
+  font-family: "oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  lighting-color: 18px;
+  color: #C29E75;
+  text-transform: capitalize;
+}
+
+.gallery__title {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "oswald", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  color: #2b2b2b;
+  letter-spacing: 1.2px;
+  margin-bottom: 7px;
+}
+
+.gallery__description {
+  margin: 0;
+  text-align: center;
+  color: #2b2b2b;
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  opacity: .9;
+  letter-spacing: 1.1px;
+  margin-bottom: 15px;
+}
+
+.gallery__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gallery__item {
+  margin-left: auto;
+}
+
+.gallery__item:nth-child(1) {
+  margin: 0;
+}
+
+.gallery__link {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: "roboto", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 14px;
+  color: #2b2b2b;
+}
+
+.gallery__link:hover {
+  color: #C29E75;
+  border-bottom: 2px solid #C29E75;
+}
 /*# sourceMappingURL=styles.css.map */
