@@ -94,18 +94,25 @@
    justify-content: space-between;
 }
 
+.testimonials__user {
+   &::after {
+      content: "";
+      display: block;
+      width: 240px;
+      height: 60px;
+      background-color: black;
+      margin: 0 auto;
+      
+   }
+}
+
 .testimonials__costomers-image {
    display: block;
    border-radius: 5px;
    box-shadow: 0px 0px 20px 15px lavender;
 
-   &::after {
-      content: "";
-      display: block;
-      width: 280px;
-      height: 60px;
-      background-color: black;
-   }
+  
 }
+
 
 
