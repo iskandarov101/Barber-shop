@@ -955,7 +955,7 @@ img {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 215px 215px 215px;
       grid-template-rows: 215px 215px 215px;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .gallery__inner-3 {
@@ -982,5 +982,129 @@ img {
   -ms-grid-row: 4;
   -ms-grid-row-span: -2;
   grid-row: 4/2;
+}
+
+.testimonials__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.testimonials__heading {
+  max-width: 500px;
+  width: 100%;
+}
+
+.testimonials__action {
+  max-width: 500px;
+  width: 100%;
+}
+
+.testimonials__text {
+  margin: 0;
+  font-family: "oswald";
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-style: normal;
+  color: #C29E75;
+  margin-bottom: 15px;
+}
+
+.testimonials__title {
+  margin: 0;
+  font-family: "oswald";
+  font-size: 42px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-style: normal;
+  color: #2b2b2b;
+  margin-bottom: 75px;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.testimonials__description {
+  margin: 0;
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-style: normal;
+  color: #2b2b2b;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.testimonials__item:not(:first-child) {
+  margin-top: 15px;
+}
+
+.testimonials__inner-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.testimonials__inner-title {
+  margin: 0;
+  font-family: "oswald";
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-style: normal;
+  color: #2b2b2b;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.testimonials__progress {
+  font-family: "oswald";
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-style: normal;
+  color: #2b2b2b;
+  opacity: 0.9;
+}
+
+.testimonials__costomers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.testimonials__costomers-image {
+  display: block;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 20px 15px lavender;
+          box-shadow: 0px 0px 20px 15px lavender;
+}
+
+.testimonials__costomers-image::after {
+  content: "";
+  display: block;
+  width: 280px;
+  height: 60px;
+  background-color: black;
 }
 /*# sourceMappingURL=styles.css.map */
