@@ -9,6 +9,7 @@
    </head>
    <body>
 
+      <!-- SITE-HEADER -->
       <header class="header">
          <div class="container">
 
@@ -484,24 +485,26 @@
          <!-- CONTACT -->
          <section class="contact">
             <div class="container">
-               <div class="contact_wrapper">
-                  <p>for support contact us</p>
-                  <h3>let's get in touch</h3>
+               <div class="contact__wrapper">
+                  <p class="contact__text">for support contact us</p>
+                  <h3 class="contact__title">let's get in touch</h3>
 
-                  <form action="https://html.academy.ru" class="form" method="GET">
+                  <form class="form" action="https://echo.htmlacademy.ru"  method="GET">
 
-                     <div class="">
+                     <div class="form__wrapper">
                         <label class="visually-hidden" aria-label="name"  for="text"></label>
-                        <input class="form__input" type="text" name="name" id="user-name" placeholder="Name" required>
+                        <input class="form__input" type="text" name="name" id="user-name" placeholder="First Name" required>
    
                         <label class="visually-hidden" aria-label="name"  for="text"></label>
                         <input class="form__input" type="email" name="email" id="user-email" placeholder="Email" required>
                         
-                        <textarea class="form__text" name="message" id="message"></textarea>
+                        <textarea class="form__area" name="message" id="message"></textarea>
+
+                        <button class="form__btn" type="submit">Contact Now</button>
    
                      </div>
 
-                     <div>
+                     <div class="form__wrapper">
                         <label class="visually-hidden" aria-label="name"  for="text"></label>
                         <input class="form__input" type="text" name="family" id="user-family" placeholder="Last Name" required>
 
@@ -509,8 +512,7 @@
                         <input class="form__input" type="ter" name="number" id="user-phone" placeholder="Phone" required>
                      </div>
 
-                     <hr>
-                     <button class="form__brtn" type="submit">Submit</button>
+                  
                    
                   </form>
                </div>
