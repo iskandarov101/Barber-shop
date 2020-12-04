@@ -1157,4 +1157,20 @@ img {
 .testimonials__social-link {
   padding: 23px 8px;
 }
+
+.partner {
+  background-color: #f5f5f5;
+}
+
+.partner__wrpper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 60px 0;
+}
 /*# sourceMappingURL=styles.css.map */
